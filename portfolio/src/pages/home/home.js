@@ -1,5 +1,11 @@
+import "./home.css";
+
 function Home() {
-    return <p>Test</p>
+    return (
+        <div className="home_mainblock">
+            <span className="home_placeholder">React.js</span>
+        </div>
+    );
 }
 
-export default Home 
+export default Home;

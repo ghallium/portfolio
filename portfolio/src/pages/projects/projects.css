@@ -1,0 +1,13 @@
+.projects_area {
+    width: 100%;
+    background: lightgrey;
+    display:flex;
+    justify-content: space-around;
+}
+
+.project_card {
+    width: 340px;
+    height: 340px;
+    
+}
+

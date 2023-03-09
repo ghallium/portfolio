@@ -1,5 +1,15 @@
+import "./footer.css";
+
 function Footer() {
-    return <p>Test</p>
+    return (
+        <footer>
+           <p>© Guillaume ROBERT - 2023</p>
+           <p>Tous droits réservés</p> 
+           <div className="social_icons">
+
+           </div>
+        </footer>
+    )
 }
 
 export default Footer 
