@@ -3,7 +3,15 @@ import "./home.css";
 function Home() {
     return (
         <div className="home_mainblock">
-            <span className="home_placeholder">React.js</span>
+            <div className="wordbox">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Javascript</span>
+                <span>React.js</span>
+                <span>Node.js</span>
+                <span>MongoDB</span>
+                
+            </div>    
         </div>
     );
 }

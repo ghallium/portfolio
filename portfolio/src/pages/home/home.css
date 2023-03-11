@@ -1,14 +1,66 @@
 .home_mainblock {
+    width: 100%;
     background: #0aa593;
+    padding-top: 15%;
+    padding-bottom: 15%;
+  }
+  
+  .wordbox {
     display: flex;
-    justify-content: center;
-}
-
-.home_placeholder {
+    margin: 0 auto;
+    width: 22%;
+    border: 5px solid white;
+    overflow: hidden;
+  }
+  
+  .wordbox span {
     color: white;
     font-size: 154px;
     font-weight: bold;
-    padding-top: 15%;
-    padding-bottom: 15%;
     text-transform: lowercase;
-}
+    padding-right: 50px;
+    animation: slide 18s linear infinite;
+  }
+
+  .wordbox span:nth-child(1) {
+    animation-delay: 0s;
+  }
+
+  .wordbox span:nth-child(1) {
+    animation-delay: 3s;
+  }
+
+  .wordbox span:nth-child(2) {
+    animation-delay: 6s;
+  }
+
+  .wordbox span:nth-child(3) {
+    animation-delay: 9s;
+  }
+
+  .wordbox span:nth-child(4) {
+    animation-delay: 12s;
+  }
+
+  .wordbox span:nth-child(5) {
+    animation-delay: 15s;
+  }
+
+  .wordbox span:nth-child(6) {
+    animation-delay: 18s;
+  }
+
+  @keyframes slide {
+    0% {
+      transform: translateX(0%);
+    }
+    
+    100% {
+        transform: translateX(-100%);
+    }
+  }
+
+  
+  
+
+  
