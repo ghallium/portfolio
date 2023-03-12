@@ -6,7 +6,7 @@
     padding-bottom: 15%;
   }
   
-  
+
   
 .word-animation {
     color: white;
@@ -24,7 +24,7 @@
     overflow: hidden;
     font-size: clamp(20px, 8vw, 75px);
     padding-left: 25px;
-    padding-right: 25px;
+    
 }
 
 .word-animation span::after {

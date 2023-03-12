@@ -1,6 +1,7 @@
 [
     {
         "id": "formOC007",
+        "github_link": "https://github.com/ghallium/P7",
         "title" : "Application immobilière React",
         "description" : "Développer une application de location immobilière avec React",
         "type_projet" : "Projet de formation",
@@ -13,6 +14,7 @@
     },
     {
         "id": "formOC006",
+        "github_link": "https://github.com/ghallium/P6",
         "title" : "API avis gastronomiques",
         "description" : "Développer une API d'avis de sauces piquantes pour la marque Piquante",
         "type_projet" : "Projet de formation",
@@ -26,6 +28,7 @@
     {
         "id": "formOC005",
         "title" : "Site e-commerce javascript",
+        "github_link": "https://github.com/ghallium/P5",
         "description" : "Développer un site e-commerce pour la marque de canapés Kanap",
         "type_projet" : "Projet de formation",
         "tags" : [
