@@ -2,17 +2,19 @@ import "./home.css";
 
 function Home() {
     return (
+        
         <div className="home_mainblock">
-            <div className="wordbox">
-                <span>HTML</span>
-                <span>CSS</span>
-                <span>Javascript</span>
-                <span>React.js</span>
-                <span>Node.js</span>
-                <span>MongoDB</span>
+             
+                <p className="word-animation">
+                    <span>Bonjour, je fais du développement web.</span>
+                </p>
                 
-            </div>    
+                <p className="word-animation">
+                    <span>Je code en HTML, CSS, Javascript, Node.js et React.</span>
+                </p>
+             
         </div>
+        
     );
 }
 
