@@ -5,8 +5,7 @@ header {
 
 .header_title {
     width: 60%;
-    padding-top: 2%;
-    padding-bottom: 1%;
+    padding: 2%;
 }
 
 .header_title img {
@@ -28,5 +27,48 @@ nav a {
     text-transform: lowercase;
 }
 
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .header_title {
+        width: 40%;
+    }
+    
+    .header_title img {
+        max-width: 200px;
+    }
+
+    nav {
+        width: 60%;
+        
+    }
+
+    nav a {
+        font-size: 18px;
+        text-transform: uppercase;
+    }
+
+}
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+    .header_title {
+        width: 40%;
+    }
+    
+    .header_title img {
+        max-width: 150px;
+    }
+
+    nav {
+        width: 60%;
+        
+    }
+
+    nav a {
+        font-size: 12px;
+        text-transform: uppercase;
+    }
+
+}
 
 

@@ -5,12 +5,21 @@
         "title" : "Application immobilière React",
         "description" : "Développer une application de location immobilière avec React",
         "type_projet" : "Projet de formation",
+        "cover" : "../assets/images/p7/kasa-home-desktop.png",
+        "images" : [
+            "../assets/images/p7/kasa-home-desktop2.png",
+            "../assets/images/p7/kasa-about-mobile.png",
+            "../assets/images/p7/kasa-home-desktop-mockup.png",
+            "../assets/images/p7/kasa-logement-desktop-mockup.png"
+
+        ],
         "tags" : [
             "React",
             "Javascript",
             "HTML",
             "CSS"
         ]
+        
     },
     {
         "id": "formOC006",

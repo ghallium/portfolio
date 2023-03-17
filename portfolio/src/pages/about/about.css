@@ -11,15 +11,16 @@
 .about_image img {
     object-fit: cover;
     object-position: center;
-    max-height: 1210px;
+    max-height: 1000px;
     
 }
 
 .about_info {
-    width: 60%;
+    width: 80%;
     background: #e8eae9;
     display: flex;
     flex-wrap: wrap;
+    max-height: 1000px;
 }
 
 .about_title {
@@ -28,15 +29,15 @@
     font-weight: 800;
     font-size: 65px;
     color: #707070;
-    padding-left: 30px;
-    padding-top: 40%;
+    padding-left: 50px;
+    padding-top: 30%;
 }
 
 .about_content {
     display: flex;
     justify-content: space-evenly;
-    width: 45%;
-    margin-bottom: 200px;  
+    width: 60%;
+    margin-bottom: 450px;  
 }
 
 .social_column {
@@ -52,6 +53,7 @@
 .social_icons li {
     list-style-type: none;
 }
+
 
 
 .avatar img {

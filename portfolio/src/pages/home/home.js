@@ -8,11 +8,11 @@ function Home() {
             
                 
                 <p className="word-animation">
-                    <span>Bonjour, je fais du développement web.</span>
+                    <span>Bonjour, je suis développeur web.</span>
                 </p>
                 
                 <p className="word-animation">
-                    <span>Je code en HTML, CSS, Javascript, Node.js et React.</span>
+                    <span>Je fais du HTML, CSS, Javascript, Node.js et React.</span>
                 </p>
             
         </div>
