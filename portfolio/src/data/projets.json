@@ -5,7 +5,7 @@
         "title" : "Application immobilière React",
         "description" : "Développer une application de location immobilière avec React",
         "type_projet" : "Projet de formation",
-        "cover" : "../assets/images/p7/kasa-home-desktop.png",
+        "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/kasa-p7-min.png",
         "images" : [
             "../assets/images/p7/kasa-home-desktop2.png",
             "../assets/images/p7/kasa-about-mobile.png",
@@ -27,6 +27,7 @@
         "title" : "API avis gastronomiques",
         "description" : "Développer une API d'avis de sauces piquantes pour la marque Piquante",
         "type_projet" : "Projet de formation",
+        "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/hottakes_p6_min.png",
         "tags" : [
             "Node.js",
             "Express",
@@ -40,8 +41,35 @@
         "github_link": "https://github.com/ghallium/P5",
         "description" : "Développer un site e-commerce pour la marque de canapés Kanap",
         "type_projet" : "Projet de formation",
+        "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/kanap_p5_min.png",
         "tags" : [
             "Javascript"
         ]
+    },
+    {
+        "id": "formOC004",
+        "title" : "Site animations CSS avancées",
+        "github_link": "https://github.com/ghallium/P3ohmyfood",
+        "description" : "Intégrer la maquette du site Ohmyfood et animations CSS avancées",
+        "type_projet" : "Projet de formation",
+        "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/ohmyfood_p3_min.png",
+        "tags" : [
+            "HTML",
+            "CSS",
+            "Sass"
+        ]
+    },
+    {
+        "id": "formOC003",
+        "title" : "Intégration HTML CSS",
+        "github_link": "https://github.com/ghallium/P2",
+        "description" : "Intégrer une maquette en site HTML - CSS pour l'entreprise Booki",
+        "type_projet" : "Projet de formation",
+        "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/booki_p2_min.png",
+        "tags" : [
+            "HTML",
+            "CSS"
+        ]
     }
+    
 ]
