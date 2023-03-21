@@ -1,0 +1,14 @@
+.toto {
+    width: 100%;
+    display: flex;
+}
+
+.carousel_area {
+    width: 50%;
+    border: 3px solid blue;
+    overflow: hidden;
+}
+
+.projectcontents_area {
+    width: 50%;
+}

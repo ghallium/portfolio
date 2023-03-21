@@ -7,10 +7,12 @@
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/kasa-p7-min.png",
         "images" : [
-            "../assets/images/p7/kasa-home-desktop2.png",
-            "../assets/images/p7/kasa-about-mobile.png",
-            "../assets/images/p7/kasa-home-desktop-mockup.png",
-            "../assets/images/p7/kasa-logement-desktop-mockup.png"
+            "http://guillaume-robert-devweb.fr/src/assets/images/p7/kasa_home_desktop.png",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p7/kasa-logement-desktop.png",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p7/kasa-about-mobile.png",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p7/kasa-home-mobile-mockup",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p7/kasa-logement-desktop-mockup.png"
+            
 
         ],
         "tags" : [
