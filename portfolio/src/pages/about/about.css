@@ -1,7 +1,11 @@
+/* BLOC PAGE */
+
 .about_container {
     width: 100%;
     display: flex;
 }
+
+/* VISUEL GAUCHE */
 
 .about_image {
     width: 40%;
@@ -14,6 +18,8 @@
     max-height: 1000px;
     
 }
+
+/* INFORMATIONS */
 
 .about_info {
     width: 80%;
@@ -31,6 +37,13 @@
     color: #707070;
     padding-left: 50px;
     padding-top: 30%;
+    margin-left: -325px;
+    opacity: 0;
+    animation-name: slide-right;
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    
 }
 
 .about_content {
@@ -40,15 +53,23 @@
     margin-bottom: 450px;  
 }
 
+/* COLONNE ICONES */
+
 .social_column {
     margin-top: 20px;
+    animation-name: avatarUnfold;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
 }
 
 .social_icons {
     
     display: flex;
     flex-direction: column;
-    justify-content: flex-end;
+    align-items: flex-end;
 }
 
 .social_icons svg {
@@ -59,11 +80,62 @@
 .avatar img {
     max-width: 100px;
     
+
+    
 }
 
+/* TEXTE */
+
 .about_text {
-    width: 60%;
+    width: 70%;
     color: #707070;
     font-style: italic;
+    opacity: 0;
+    animation-name: textUnfold; 
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1s;
     
+}
+
+/* ANIMATION TITRE */
+
+@keyframes slide-right {
+
+    0% {
+         margin-left: -325px; 
+         opacity: 0;
+        }
+    100% { 
+        margin-left: 0; 
+        opacity: 1;
+    }
+    }
+
+/* ANIMATION TEXTE */
+
+@keyframes textUnfold {
+
+        0% {
+             
+             opacity: 0;
+            }
+        100% { 
+            
+            opacity: 1;
+        }
+        }
+
+/* ANIMATION AVATAR */
+
+@keyframes avatarUnfold {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
