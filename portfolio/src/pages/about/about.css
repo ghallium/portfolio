@@ -47,13 +47,13 @@
 .social_icons {
     
     display: flex;
+    flex-direction: column;
     justify-content: flex-end;
 }
 
-.social_icons li {
-    list-style-type: none;
+.social_icons svg {
+    max-width: 35px;
 }
-
 
 
 .avatar img {

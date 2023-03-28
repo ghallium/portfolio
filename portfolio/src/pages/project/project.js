@@ -5,6 +5,8 @@ import data from "../../data/projets.json";
 import Carousel from "../../components/carousel/carousel";
 import "./project.css";
 
+
+
 export default function Projet() {
   let {id} = useParams();
   const foundProject = data.find(projet => projet.id === id);
@@ -24,9 +26,13 @@ export default function Projet() {
             <li key={tag}>{tag}</li>
              ))}
           </ul>
-        <p>{foundProject.type_projet}</p>
+        <span className="project_type">{foundProject.type_projet}</span>
         <p className="projet_description">{foundProject.description}</p>
-        <p>{foundProject.github_link}</p>
+        <a href={foundProject.github_link} target="_blank" rel="noreferrer">
+          <div className="goGithub">
+            <span>Voir sur Github</span>
+          </div>
+        </a>
         </div>
       </div>
     );

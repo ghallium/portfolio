@@ -1,14 +1,68 @@
 .toto {
     width: 100%;
     display: flex;
+    background: #e8eae9;
 }
 
 .carousel_area {
-    width: 50%;
-    border: 3px solid blue;
-    overflow: hidden;
+    width: 35%;
 }
 
 .projectcontents_area {
     width: 50%;
+}
+
+.projectcontents_area h2 {
+    font-size: 40px;
+    font-weight: bold;
+    color: #707070;
+    padding-top: 250px;
+}
+
+.projectcontents_area ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: flex-start;
+    flex-grow: 1;
+    border: 2px solid green;
+    
+}
+
+.projectcontents_area li {
+    background: #0AA593;
+    color: white;
+    padding: 8px;
+    margin-right: 3px;
+    
+}
+
+.project_type {
+    background: #707070;
+    color: white;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.projet_description {
+    color: #707070;
+    font-weight: light;
+}
+
+.goGithub {
+    background: #0AA593;
+    color: white;
+    text-transform: uppercase;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+}
+
+.goGithub span {
+    text-decoration: none;
+}
+
+.seeGit_ico {
+    max-width: 50px;
 }
