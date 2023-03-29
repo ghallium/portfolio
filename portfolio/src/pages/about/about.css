@@ -35,8 +35,9 @@
     font-weight: 800;
     font-size: 65px;
     color: #707070;
-    padding-left: 50px;
+    padding-left: 35px;
     padding-top: 30%;
+    padding-bottom: 50px;
     margin-left: -325px;
     opacity: 0;
     animation-name: slide-right;
@@ -57,12 +58,8 @@
 
 .social_column {
     margin-top: 20px;
-    animation-name: avatarUnfold;
-    animation-duration: 0.5s;
-    animation-timing-function: ease-out;
-    animation-fill-mode: forwards;
-    animation-delay: 1.5s;
-    opacity: 0;
+    
+    
 }
 
 .social_icons {
@@ -70,15 +67,35 @@
     display: flex;
     flex-direction: column;
     align-items: flex-end;
+    transform: scaleY(0);
+    animation: iconsUnfold 0.3s ease-out forwards;
+    animation-delay: 1.5s;
 }
 
-.social_icons svg {
-    max-width: 35px;
+.fa-envelope {
+    font-size: 25px;
+    color: #0AA593;
+}
+
+.fa-linkedin {
+    font-size: 25px;
+    color: #0AA593;
+}
+
+.fa-github {
+    font-size: 25px;
+    color: #0AA593;
 }
 
 
 .avatar img {
     max-width: 100px;
+    animation-name: avatarUnfold;
+    animation-duration: 0.5s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+    animation-delay: 1.2s;
+    transform: scaleX(0);
     
 
     
@@ -87,10 +104,12 @@
 /* TEXTE */
 
 .about_text {
-    width: 70%;
+    
     color: #707070;
     font-style: italic;
-    opacity: 0;
+    width: 70%;
+    transform: scaleY(0);
+    overflow: hidden;
     animation-name: textUnfold; 
     animation-duration: 0.5s;
     animation-timing-function: ease-out;
@@ -115,27 +134,38 @@
 
 /* ANIMATION TEXTE */
 
-@keyframes textUnfold {
+ @keyframes textUnfold {
 
-        0% {
-             
-             opacity: 0;
-            }
-        100% { 
-            
-            opacity: 1;
-        }
-        }
+  0% {
+    transform: scaleY(0);
+  }
+  100% {
+    transform: scaleY(1);
+  }
+    
+ }
+
 
 /* ANIMATION AVATAR */
 
 @keyframes avatarUnfold {
 
     0% {
-        opacity: 0;
+        transform: scaleX(0);
     }
-
     100% {
-        opacity: 1;
+        transform: scaleX(1);
+    }
+      
+   }
+
+/* ANIMATION ICONES */
+
+@keyframes iconsUnfold {
+    0% {
+        transform: scaleY(0);
+    }
+    100% {
+        transform: scaleY(1);
     }
 }
