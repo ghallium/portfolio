@@ -30,10 +30,11 @@ export default function Projet() {
         <p className="projet_description">{foundProject.description}</p>
         <a href={foundProject.github_link} target="_blank" rel="noreferrer">
           <div className="goGithub">
+            <i class="fa-brands fa-github"></i>
             <span>Voir sur Github</span>
           </div>
         </a>
-        </div>
+      </div>
       </div>
     );
   }

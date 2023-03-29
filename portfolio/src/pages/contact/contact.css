@@ -1,0 +1,46 @@
+.contact-pageblock {
+    width: 100%;
+    height: 100%;
+    border: 3px solid red;
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-cover {
+    height: 30%;
+    
+    border: 3px solid green;
+}
+
+.cover {
+    background: url("../../assets/contact-cover.jpg");
+    min-height: 300px;
+}
+
+.contactform-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border: 3px solid blue;
+}
+
+.name-email {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.name-email input {
+    width: 30%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.message-submit {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+    margin: 0 auto;
+}

@@ -49,18 +49,29 @@
     font-weight: light;
 }
 
+.projectcontents_area a {
+    text-decoration: none;
+}
+
 .goGithub {
     background: #0AA593;
+    padding: 10px;
     color: white;
     text-transform: uppercase;
     width: 200px;
     display: flex;
     align-items: center;
+    justify-content: center;
     border-radius: 5px;
 }
 
+.goGithub > .fa-github {
+    color: white;
+    padding-right: 10px;
+}
+
 .goGithub span {
-    text-decoration: none;
+    font-weight: 700;
 }
 
 .seeGit_ico {
