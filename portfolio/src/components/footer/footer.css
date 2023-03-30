@@ -5,3 +5,8 @@ footer {
     font-weight: 300;
     color: #484949;
 }
+
+.footer-socialicons i {
+    padding: 10px;
+    font-size: 35px;
+}

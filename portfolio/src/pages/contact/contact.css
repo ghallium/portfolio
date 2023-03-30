@@ -1,7 +1,7 @@
 .contact-pageblock {
     width: 100%;
     height: 100%;
-    border: 3px solid red;
+    background: #e8eae9;
     display: flex;
     flex-direction: column;
 }
@@ -15,6 +15,15 @@
 .cover {
     background: url("../../assets/contact-cover.jpg");
     min-height: 300px;
+    position: relative;
+}
+
+.cover h1 {
+    color: white;
+    font-size: 55px;
+    position: absolute;
+    top: 30%;
+    left: 45%;
 }
 
 .contactform-container {
@@ -22,25 +31,48 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    border: 3px solid blue;
+    
 }
 
 .name-email {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    
 }
 
 .name-email input {
     width: 30%;
     padding-top: 20px;
     padding-bottom: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 }
 
 .message-submit {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
-    margin: 0 auto;
+    align-items: center;
+    
+}
+
+.message-submit input {
+    min-height: 70px;
+    width: 80%;
+    
+}
+
+.message-submit button {
+    margin-bottom: 25px;
+    margin-top: 25px;
+    width: 7%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background: #0AA593;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+
+    
 }

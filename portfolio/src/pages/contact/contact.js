@@ -5,7 +5,9 @@ function Contact() {
     return (
         <div className="contact-pageblock">
             <div className="contact-coverimage">
-                <div className="cover"></div>
+                <div className="cover">
+                    <h1>Contact</h1>
+                </div>
             </div>
             <div className="contactform-container">
                 <form>
