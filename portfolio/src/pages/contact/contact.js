@@ -1,5 +1,6 @@
+import emailjs from "emailjs-com";
 import "./contact.css";
-import {useForm} from 'react-hook-form';
+import { useForm } from 'react-hook-form';
 
 const wait = function (duration = 1000) {
     return new Promise((resolve) => {
@@ -9,9 +10,15 @@ const wait = function (duration = 1000) {
 
 function Contact() {
     const { register, formState: { errors }, handleSubmit, isSubmitting } = useForm();
-    
+
     const onSubmit = async data => {
         await wait(2000)
+        emailjs.send('service_w6juuk2', 'template_otp0qck', data, 'm97t49Wzp6kIRe8GX')
+            .then((result) => {
+                console.log(result.text);
+            }, (error) => {
+                console.log(error.text);
+            });
     }
 
     return (
@@ -24,14 +31,14 @@ function Contact() {
             <div className="contactform-container">
                 <form onSubmit={handleSubmit(onSubmit)}>
                     <div className="name-email">
-                        <input type="text" autoComplete="none" name="name" placeholder="Entrez votre nom" {... register("name", {required: true})}/>
-                            {errors.name && <p className="error-message">Veuillez entrer votre nom.</p>}
-                        <input type="email" autoComplete="none" name="email" placeholder="Entrez votre adresse e-mail" {... register("email", {required: true})}/>
-                            {errors.email && <p className="error-message">Veuillez entrer votre adresse e-mail.</p>}
+                        <input type="text" autoComplete="none" name="name" placeholder="Entrez votre nom" {...register("name", { required: true })} />
+                        {errors.name && <p className="error-message">Veuillez entrer votre nom.</p>}
+                        <input type="email" autoComplete="none" name="email" placeholder="Entrez votre adresse e-mail" {...register("email", { required: true })} />
+                        {errors.email && <p className="error-message">Veuillez entrer votre adresse e-mail.</p>}
                     </div>
                     <div className="message-submit">
-                        <input type="text" autoComplete="none" name="message" placeholder="Votre message" {... register("message", {required: true})}/>
-                            {errors.message && <p className="error-message">N'oubliez pas de laisser votre message !</p>}
+                        <input type="text" autoComplete="none" name="message" placeholder="Votre message" {...register("message", { required: true })} />
+                        {errors.message && <p className="error-message">N'oubliez pas de laisser votre message !</p>}
                         <button disabled={isSubmitting}>Envoyer</button>
                     </div>
                 </form>
