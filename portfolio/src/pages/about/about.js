@@ -1,11 +1,18 @@
 import React, { useEffect, useState } from "react";
+import zeldaSound from "../../assets/zelda-secret-sound.mp3";
 import "./about.css";
 import imgGameBoy from "../../assets/game-boy-portrait.jpg";
+import zeldaSecret from "../../assets/zeldaSecret.png"
 import avatarImg from "../../assets/avatar.jpg";
 
 function About() {
-  const konamiSequence = "38384040373937396665";
-  const [input, setInput] = useState("");
+
+function playZeldaSound() {
+    new Audio(zeldaSound).play();
+}
+
+const konamiSequence = "38384040373937396665";
+const [input, setInput] = useState("");
 
   useEffect(() => {
     const onKeyDown = (e) => {
@@ -18,9 +25,17 @@ function About() {
   useEffect(() => {
     if (input.endsWith(konamiSequence)) {
       // Do something when the Konami Code is entered
-      document.body.style.backgroundColor = "pink";
-      document.querySelector(".about_container").style.backgroundColor = "yellow";
-      document.querySelector(".about_image img").src = "https://placekitten.com/200/300";
+      document.querySelector(".about_info").style.background= "#464747"
+      document.querySelector(".about_image img").src = zeldaSecret
+      document.querySelector(".about_image").style.backgroundColor = "black";
+      document.querySelector(".about_title").style.color = "#16D8BC"
+      document.querySelector(".about_text").style.color = "white"
+      document.querySelector(".fa-envelope").style.color = "white"
+      document.querySelector(".fa-linkedin").style.color = "white"
+      document.querySelector(".fa-github").style.color = "white"
+      playZeldaSound();
+      
+      
     }
   }, [input]);
 

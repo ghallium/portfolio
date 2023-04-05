@@ -1,3 +1,6 @@
+import React, { useEffect, useState } from "react";
+import zeldaSound from "../../assets/zelda-secret-sound.mp3";
+import codecCover from "../../assets/codec-cover.png"
 import emailjs from "emailjs-com";
 import "./contact.css";
 import { useForm } from 'react-hook-form';
@@ -9,6 +12,33 @@ const wait = function (duration = 1000) {
 }
 
 function Contact() {
+
+    function playZeldaSound() {
+        new Audio(zeldaSound).play();
+    }
+    
+    const konamiSequence = "38384040373937396665";
+    const [input, setInput] = useState("");
+    
+      useEffect(() => {
+        const onKeyDown = (e) => {
+          setInput((prevInput) => prevInput + e.keyCode);
+        };
+        window.addEventListener("keydown", onKeyDown);
+        return () => window.removeEventListener("keydown", onKeyDown);
+      }, []);
+    
+      useEffect(() => {
+        if (input.endsWith(konamiSequence)) {
+          // Do something when the Konami Code is entered
+          document.querySelector('.contact-pageblock').style.background="#464747"
+          document.querySelector(".cover").style.background = "black url(" + codecCover + ") no-repeat center";
+          playZeldaSound();
+          
+          
+        }
+      }, [input]);
+    
     const { register, formState: { errors }, handleSubmit, isSubmitting } = useForm();
 
     const onSubmit = async data => {
