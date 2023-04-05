@@ -1,5 +1,19 @@
+import iamError from "../../assets/iamerror.png";
+import "./error.css";
+
 function Error() {
-    return <p>Erreur 404 - La page que vous avez demandée n'existe pas.</p>
+    return (
+    <div className="error-pageblock">
+        <div className="error-image">
+            <img src={iamError} alt="je suis une erreur 404"/>
+        </div>
+        <div className="error-info">
+            <h1>404</h1>
+            <p>La page que vous avez demandé n'existe pas.</p>
+            <a href="/">Revenir à la page d'accueil</a>
+        </div>
+    </div>
+    )
 }
 
 export default Error 
