@@ -76,3 +76,79 @@
 
     
 }
+
+/*
+------------------
+    RESPONSIVE
+------------------
+*/
+
+/* Tablettes */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .cover {
+        max-height: 150px;
+        
+    }
+
+    .cover h1 {
+        left: 38%;
+    }
+
+    .name-email {
+        flex-wrap: wrap;
+        
+    }
+
+    .name-email input {
+        width: 80%;
+        margin-bottom: 0;
+    }
+
+    .message-submit {
+        margin-top: 25px;
+    }
+
+    .message-submit button {
+        width: 16%;
+    }
+
+}
+
+/* Mobiles */
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+    .cover {
+        min-height: 150px;
+        
+    }
+
+    .cover h1 {
+        font-size: 35px;
+        top: 20%;
+        left: 33%;
+    }
+
+    .name-email {
+        flex-wrap: wrap;
+        
+    }
+
+    .name-email input {
+        width: 80%;
+        margin-bottom: 0;
+    }
+
+    .message-submit {
+        margin-top: 25px;
+    }
+
+    .message-submit button {
+        width: 25%;
+    }
+
+
+
+}
