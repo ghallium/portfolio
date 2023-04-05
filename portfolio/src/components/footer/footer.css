@@ -10,3 +10,37 @@ footer {
     padding: 10px;
     font-size: 35px;
 }
+
+/*
+------------------
+    RESPONSIVE
+------------------
+*/
+
+/* Tablettes */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    footer {
+        font-size: 20px;
+    }
+
+    .footer-socialicons i {
+        font-size: 25px;
+    }
+
+}
+
+/* Mobiles */
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+    footer {
+        font-size: 15px;
+    }
+
+    .footer-socialicons i {
+        font-size: 20px;
+    }
+
+}

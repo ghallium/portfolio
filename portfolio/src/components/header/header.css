@@ -27,6 +27,14 @@ nav a {
     text-transform: lowercase;
 }
 
+/*
+------------------
+    RESPONSIVE
+------------------
+*/
+
+/* Tablettes */
+
 @media screen and (min-width: 768px) and (max-width: 1024px) {
 
     .header_title {
@@ -48,6 +56,8 @@ nav a {
     }
 
 }
+
+/* Mobiles */
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
 

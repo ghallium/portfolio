@@ -65,15 +65,12 @@ const [input, setInput] = useState("");
           </div>
           <div className="about_text">
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque finibus nibh ut dolor pulvinar
-              scelerisque. Maecenas ut mauris vitae ipsum iaculis ornare. Aenean faucibus in magna ac viverra. Fusce
-              venenatis quam erat. Morbi lacinia, felis vitae egestas volutpat, dui ligula rutrum tellus, et tincidunt
-              nibh nunc at ante. Pellentesque ut arcu nisl. Praesent efficitur faucibus orci, in feugiat risus semper
-              at. Sed eu congue nunc. Suspendisse a diam sit amet odio gravida sodales nec eget eros. Donec malesuada
-              mauris et tortor ullamcorper, vel tristique urna gravida. Duis fermentum cursus facilisis. In a mollis
-              leo. Phasellus ultrices, libero quis hendrerit tincidunt, metus tellus consectetur urna, eu laoreet
-              ligula libero placerat libero. Ut condimentum et metus at commodo.
+            Hey bonjour ! Moi c'est Guillaume Robert et je suis développeur web junior en reconversion professionnelle après avoir auparavant travaillé dans des domaines comme le graphisme ou la rédaction web. Après 7 mois de formation à distance chez OpenClassrooms, j'ai acquis un certain nombre de compétences comme apprendre à intégrer une maquette et la transformer en site fonctionnel, concevoir un site e-commerce en Javascript, découvrir le fonctionnement des API REST et de node.js ou encore pratiquer le framework React. 
             </p>
+            <p>
+            Lorsque je ne suis pas devant Visual Studio Code, je m'intéresse à tout ce qui touche de près ou de loin à la culture populaire : cinéma, bande-dessinée, manga et séries télévisées. Je suis également un passionné de jeux vidéo depuis mon plus jeune âge et pratique le streaming à mes heures perdues. Aussi, j'aime bien les chiens (et aussi les chats), la culture hip-hop et manger des pizzas.   
+            </p>
+            
           </div>
         </div>
       </div>

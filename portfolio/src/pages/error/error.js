@@ -1,4 +1,5 @@
 import iamError from "../../assets/iamerror.png";
+import mobileError from "../../assets/mobile-error.png"
 import "./error.css";
 
 function Error() {
@@ -6,6 +7,9 @@ function Error() {
     <div className="error-pageblock">
         <div className="error-image">
             <img src={iamError} alt="je suis une erreur 404"/>
+        </div>
+        <div className="error-image-mobile">
+            <img src={mobileError} alt="je suis une erreur 404"/>
         </div>
         <div className="error-info">
             <h1>404</h1>
