@@ -5,6 +5,7 @@ import emailjs from "emailjs-com";
 import "./contact.css";
 import { useForm } from 'react-hook-form';
 
+
 const wait = function (duration = 1000) {
     return new Promise((resolve) => {
         window.setTimeout(resolve, duration)
@@ -41,15 +42,23 @@ function Contact() {
     
     const { register, formState: { errors }, handleSubmit, isSubmitting } = useForm();
 
-    const onSubmit = async data => {
-        await wait(2000)
-        emailjs.send('service_w6juuk2', 'template_otp0qck', data, 'm97t49Wzp6kIRe8GX')
-            .then((result) => {
-                console.log(result.text);
-            }, (error) => {
-                console.log(error.text);
-            });
-    }
+    const onSubmit = async (data, e) => {
+        e.preventDefault();
+        await wait(2000);
+        emailjs.send("service_w6juuk2", "template_otp0qck", data, "m97t49Wzp6kIRe8GX").then(
+          (result) => {
+            console.log(result.text);
+            // Display a pop-up message indicating that the email has been sent
+            alert("Votre message a été envoyé !");
+            // Reset the form
+            e.target.reset();
+          },
+          (error) => {
+            console.log(error.text);
+          }
+        );
+      };
+      
 
     return (
         <div className="contact-pageblock">
