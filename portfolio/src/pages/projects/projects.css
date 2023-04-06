@@ -42,3 +42,47 @@
     top: 75%;
 }
 
+/*
+------------------
+    RESPONSIVE
+------------------
+*/
+
+/* Tablettes */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .projects_container {
+        width: 100%;
+    }
+
+    .project_card {
+        width: 312px;
+        height: 188px;
+    }
+
+    .project_card_title {
+        font-size: 18px;
+    }
+
+}
+
+/* Mobiles */
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+    .projects_container {
+        width: 100%;
+    }
+
+    .project_card {
+        width: 312px;
+        height: 188px;
+    }
+
+    .project_card_title {
+        font-size: 18px;
+    }
+
+
+}
