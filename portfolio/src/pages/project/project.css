@@ -1,4 +1,4 @@
-.toto {
+.project_pageblock {
     width: 100%;
     display: flex;
     background: #e8eae9;
@@ -53,6 +53,13 @@
     text-decoration: none;
 }
 
+.project_links {
+    display: flex;
+    justify-content: space-between;
+    width: 40%;
+    
+}
+
 .goGithub {
     background: #0AA593;
     padding: 10px;
@@ -65,10 +72,17 @@
     border-radius: 5px;
 }
 
+.goGithub:hover {
+    background: #707070;
+    color: white;
+}
+
 .goGithub > .fa-github {
     color: white;
     padding-right: 10px;
 }
+
+
 
 .goGithub span {
     font-weight: 700;
@@ -77,3 +91,20 @@
 .seeGit_ico {
     max-width: 50px;
 }
+
+.goWebsite {
+    background: #707070;
+    padding: 13px;
+    color: white;
+    text-transform: uppercase;
+    width: 130px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.goWebsite span {
+    font-weight: 700;
+}
+

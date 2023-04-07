@@ -27,7 +27,7 @@ export default function Projet() {
   useEffect(() => {
     if (input.endsWith(konamiSequence)) {
       // Do something when the Konami Code is entered
-      document.querySelector(".toto").style.background = "#464747";
+      document.querySelector(".project_pageblock").style.background = "#464747";
       document.querySelector(".projectcontents_area h2").style.color = "white";
       document.querySelector(".projet_description").style.color = "white";
       document.querySelector(".project_type").style.background = "white";
@@ -41,7 +41,7 @@ export default function Projet() {
     return <Error />;
   } else {
     return (
-      <div className="toto">
+      <div className="project_pageblock">
         
         <div className="carousel_area">
           <Carousel />
@@ -55,12 +55,20 @@ export default function Projet() {
           </ul>
           <span className="project_type">{foundProject.type_projet}</span>
           <p className="projet_description">{foundProject.description}</p>
-          <a href={foundProject.github_link} target="_blank" rel="noreferrer">
-            <div className="goGithub">
-              <i class="fa-brands fa-github"></i>
-              <span>Voir sur Github</span>
-            </div>
-          </a>
+          <div className="project_links">
+            <a href={foundProject.github_link} target="_blank" rel="noreferrer">
+              <div className="goGithub">
+                <i class="fa-brands fa-github"></i>
+                <span>Voir sur Github</span>
+              </div>
+            </a>
+            <a href={foundProject.project_url} target="_blank" rel="noreferrer">
+              <div className="goWebsite">
+              
+                <span>Voir le site</span>
+              </div>
+            </a>
+          </div>
         </div>
       </div>
     );
