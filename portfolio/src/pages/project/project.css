@@ -5,7 +5,7 @@
 }
 
 .carousel_area {
-    width: 35%;
+    width: 50%;
 }
 
 .projectcontents_area {
@@ -24,7 +24,7 @@
     list-style-type: none;
     justify-content: flex-start;
     flex-grow: 1;
-    border: 2px solid green;
+    padding: 0;
     
 }
 

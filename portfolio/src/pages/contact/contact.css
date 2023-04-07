@@ -77,6 +77,15 @@
     
 }
 
+.message-submit button:hover {
+    background: #707070;
+}
+
+.message-submit button:active {
+    background: white;
+    color: #0AA593;
+}
+
 /*
 ------------------
     RESPONSIVE

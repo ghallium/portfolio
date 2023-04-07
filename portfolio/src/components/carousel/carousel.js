@@ -23,16 +23,12 @@ export default function Carousel() {
           <div className="slider">
           {images.length > 1 && (
             <div className="vectorPrev" onClick={prevSlide}>
-              <svg  alt="fleche"  viewBox="0 0 48 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                    <path d="M0.960022 72.3458L8.04002 79.4258L47.64 39.8258L8.04002 0.22583L0.960022 7.30583L33.48 39.8258L0.960022 72.3458Z" fill="black"/>
-                </svg>
+              <i class="fa-sharp fa-solid fa-arrow-left"></i>
             </div>
           )}
           {images.length > 1 && (
             <div className="vectorNext" onClick={nextSlide}>
-                <svg  alt="fleche" viewBox="0 0 48 80" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M0.960022 72.3458L8.04002 79.4258L47.64 39.8258L8.04002 0.22583L0.960022 7.30583L33.48 39.8258L0.960022 72.3458Z" fill="black"/>
-                </svg>
+              <i class="fa-sharp fa-solid fa-arrow-right"></i>  
             </div>
           )}
           {images.map((img, index) => {

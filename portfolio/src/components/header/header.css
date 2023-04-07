@@ -27,6 +27,11 @@ nav a {
     text-transform: lowercase;
 }
 
+nav a:hover {
+    border-bottom: 3px solid #0AA593;
+    padding-bottom: 10px;
+}
+
 /*
 ------------------
     RESPONSIVE
@@ -88,6 +93,8 @@ nav a {
         font-size: 18px;
         color: white;
     }
+
+    
 
 }
 

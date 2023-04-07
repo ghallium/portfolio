@@ -8,9 +8,9 @@
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/kasa-p7-min.png",
         "images" : [
             
-            "http://guillaume-robert-devweb.fr/src/assets/images/p7/kasa_about_mobile.png",
-            "http://guillaume-robert-devweb.fr/src/assets/images/p7/kasa_home_mobile_mockup",
-            "http://guillaume-robert-devweb.fr/src/assets/images/p7/kasa_logement_mockup"
+            "http://guillaume-robert-devweb.fr/src/assets/images/p7-01.webp",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p7-02.webp",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p7-03.webp"
             
             
 
@@ -30,6 +30,15 @@
         "description" : "Développer une API d'avis de sauces piquantes pour la marque Piquante",
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/hottakes_p6_min.png",
+        "images" : [
+            
+            "http://guillaume-robert-devweb.fr/src/assets/images/p6-01.webp",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p6-02.webp",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p6-03.webp"
+            
+            
+
+        ],
         "tags" : [
             "Node.js",
             "Express",
@@ -44,6 +53,14 @@
         "description" : "Développer un site e-commerce pour la marque de canapés Kanap",
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/kanap_p5_min.png",
+        "images" : [
+            
+            "http://guillaume-robert-devweb.fr/src/assets/images/p5-01.webp",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p6-02.webp"
+            
+            
+
+        ],
         "tags" : [
             "Javascript"
         ]
@@ -55,6 +72,15 @@
         "description" : "Intégrer la maquette du site Ohmyfood et animations CSS avancées",
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/ohmyfood_p3_min.png",
+        "images" : [
+            
+            "http://guillaume-robert-devweb.fr/src/assets/images/p3-01.webp",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p3-02.webp",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p3-03.webp"
+            
+            
+
+        ],
         "tags" : [
             "HTML",
             "CSS",
@@ -68,6 +94,15 @@
         "description" : "Intégrer une maquette en site HTML - CSS pour l'entreprise Booki",
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/booki_p2_min.png",
+        "images" : [
+            
+            "http://guillaume-robert-devweb.fr/src/assets/images/p2-01.webp",
+            "http://guillaume-robert-devweb.fr/src/assets/images/p2-02.webp"
+            
+            
+            
+
+        ],
         "tags" : [
             "HTML",
             "CSS"
