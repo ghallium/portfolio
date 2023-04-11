@@ -4,7 +4,7 @@
         "github_link": "https://github.com/ghallium/P7",
         "project_url": null,
         "title" : "Application immobilière React",
-        "description" : "Développer une application de location immobilière avec React",
+        "description" : "Dernier projet du parcours Développeur web OpenClassrooms. L'objectif était de créer une application web utilisant React pour la société de location immobilière Kasa. L'application devait intégrer une page d'accueil incluant tous les logements disponibles, les pages dédiées à ces logements, une page à propos ainsi que des composants de type Collapse et Carousel. En l'absence provisoire d'API pour le back-end, les informations sont chargées depuis un fichier JSON.",
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/kasa-p7-min.png",
         "images" : [
@@ -29,7 +29,7 @@
         "github_link": "https://github.com/ghallium/P6",
         "project_url": null,
         "title" : "API avis gastronomiques",
-        "description" : "Développer une API d'avis de sauces piquantes pour la marque Piquante",
+        "description" : "Sixième projet du parcours Développeur web OpenClassrooms. Dans le but de se faire connaître avant de lancer sa boutique en ligne, l'entreprise de sauces épicées Piquante souhaite développer une application appelée Hot Takes où les utilisateurs peuvent ajouter les sauces qu'ils apprécient et liker/disliker celles que d'autres partagent. L'objectif était de développer une API sécurisée permettant toutes les opérations CRUD. L'API utilise Node.js et Express pour la partie serveur ainsi qu'une base de données NoSQL MongoDB pour stocker les sauces, utilisateurs et avis.",
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/hottakes_p6_min.png",
         "images" : [

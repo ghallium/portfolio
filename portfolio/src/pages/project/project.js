@@ -48,12 +48,14 @@ export default function Projet() {
         </div>
         <div className="projectcontents_area">
           <h2>{foundProject.title}</h2>
-          <ul>
-            {foundProject.tags.map((tag) => (
-              <li key={tag}>{tag}</li>
-            ))}
-          </ul>
-          <span className="project_type">{foundProject.type_projet}</span>
+          <div className="tags_types">
+            <ul>
+              {foundProject.tags.map((tag) => (
+                <li key={tag}>{tag}</li>
+              ))}
+            </ul>
+            <span className="project_type">{foundProject.type_projet}</span>
+          </div>
           <p className="projet_description">{foundProject.description}</p>
           <div className="project_links">
             <a href={foundProject.github_link} target="_blank" rel="noreferrer">
