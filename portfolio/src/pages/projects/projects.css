@@ -2,6 +2,19 @@
     width: 100%;
     background: #e8eae9;
     
+    transform: scaleX(0);
+    
+    animation: areaUnfold 0.5s ease-out forwards;
+    
+}
+
+.projects_area h1 {
+    color: #707070;
+    padding-top: 1%;
+    text-align: center;
+    transform: scaleX(0);
+    animation: title 0.2s ease-out forwards;
+    animation-delay: 0.5s;
 }
 
 .projects_container {
@@ -22,6 +35,9 @@
     position: relative;
     margin-right: 20px;
     margin-bottom: 20px;
+    transform: scaleY(0);
+    animation: cardsUnfold 0.3s ease-out forwards;
+    animation-delay: 0.7s;
     
 }
 
@@ -40,6 +56,55 @@
     padding-left: 10px;
     position: absolute;
     top: 75%;
+    opacity: 0;
+    animation: cardsTitles 0.2s ease-out forwards;
+    animation-delay: 1s;
+}
+
+/* Animations */
+
+@keyframes areaUnfold {
+
+    0% {
+        transform: scaleX(0);
+        
+        
+    }
+
+    100% {
+        transform: scaleX(1);
+        
+        
+    }
+}
+
+@keyframes title {
+    0% {
+        transform: scaleX(0);
+    }
+    100% {
+        transform: scaleX(1);
+    }
+}
+
+@keyframes cardsUnfold {
+    0% {
+        transform: scaleY(0);
+    }
+
+    100% {
+        transform: scaleY(1);
+    }
+}
+
+@keyframes cardsTitles {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
 }
 
 /*
@@ -51,6 +116,10 @@
 /* Tablettes */
 
 @media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .projects_area h1 {
+        display: none;
+    }
 
     .projects_container {
         width: 100%;
@@ -71,6 +140,10 @@
 
 @media screen and (min-width: 360px) and (max-width: 767px) {
 
+    .projects_area h1 {
+        display: none;
+    }
+    
     .projects_container {
         width: 100%;
     }

@@ -7,6 +7,7 @@ function Projects() {
   return (
     
     <div className="projects_area">
+      <h1>Projets</h1>
       <div className="projects_container">
       {projectsData.map((p) => (
         <Link key={p.id} to={`/projet/${p.id}`}>
