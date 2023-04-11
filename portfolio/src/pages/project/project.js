@@ -62,12 +62,13 @@ export default function Projet() {
                 <span>Voir sur Github</span>
               </div>
             </a>
-            <a href={foundProject.project_url} target="_blank" rel="noreferrer">
-              <div className="goWebsite">
-              
-                <span>Voir le site</span>
-              </div>
-            </a>
+            {foundProject.project_url ? ( // Si foundProject.project_url = null, n'est pas rendu dans le composant
+              <a href={foundProject.project_url} target="_blank" rel="noreferrer">
+                <div className="goWebsite">
+                  <span>Voir le site</span>
+                </div>
+              </a>
+            ) : null}
           </div>
         </div>
       </div>
