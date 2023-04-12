@@ -2,6 +2,7 @@
     width: 100%;
     display: flex;
     background: #e8eae9;
+    position: relative;
     animation: pageblock-open 0.3s ease-out forwards;
 }
 
@@ -38,6 +39,7 @@
     justify-content: flex-start;
     flex-grow: 1;
     padding: 0;
+    margin-top: -20px;
     
 }
 
@@ -72,7 +74,7 @@
 
 .project_links {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     width: 40%;
     animation: poplinks 0.2s ease-out forwards;
     animation-delay: 1.3s;
@@ -90,6 +92,7 @@
     align-items: center;
     justify-content: center;
     border-radius: 5px;
+    margin-right: 8px;
 }
 
 .goGithub:hover {
@@ -127,6 +130,28 @@
 .goWebsite span {
     font-weight: 700;
 }
+
+.backtoprojects {
+    position: absolute;
+    bottom: 2%;
+    left: 70%;
+    animation: popback 0.2s ease-out forwards;
+    animation-delay: 1.5s;
+    opacity: 0;
+}
+
+.backtoprojects a {
+    color: #707070;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.fa-circle-arrow-left {
+    color: #707070;
+    padding-right: 3px;
+}
+
+/* Animations */
 
 @keyframes carousel {
 
@@ -198,3 +223,115 @@
     }
 
    }
+
+   @keyframes popback {
+
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+
+   }
+
+/*
+------------------
+    RESPONSIVE
+------------------
+*/
+
+/* Tablettes */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .project_pageblock {
+        flex-direction: column;
+    }
+
+    .carousel_area {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .projectcontents_area {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+
+    .projectcontents_area h2 {
+        
+        padding-top: 10px;
+         
+    }
+
+    .tags_types {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project_type {
+        text-align: center;
+    }
+
+    .projet_description {
+        width: 70%;
+        text-align: center;
+    }
+
+    .backtoprojects {
+        left: 40%;
+    }
+}
+
+/* Mobiles */
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+    .project_pageblock {
+        flex-direction: column;
+    }
+
+    .carousel_area {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .projectcontents_area {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 150px;
+    }
+
+    .projectcontents_area h2 {
+        padding-top: 5px;
+        font-size: 25px;
+        padding-bottom: 20px;
+         
+    }
+
+    .tags_types {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .project_type {
+        text-align: center;
+    }
+
+    .projet_description {
+        width: 80%;
+        text-align: center;
+    }
+
+    .backtoprojects {
+        left: 25%;
+    }
+
+}

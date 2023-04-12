@@ -46,3 +46,55 @@
     left: 45%;
     top: 95%;
 }
+
+/*
+------------------
+    RESPONSIVE
+------------------
+*/
+
+/* Tablettes */
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+
+    .carousel_container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .slider img {
+        height: 400px;
+    }
+
+    .fa-arrow-left, .fa-arrow-right {
+        font-size: 60px;
+        color: black;
+    }
+
+    
+}
+
+/* Mobiles */
+
+@media screen and (min-width: 360px) and (max-width: 767px) {
+
+    .carousel_container {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .slider img {
+        height: 250px;
+    }
+
+    .fa-arrow-left, .fa-arrow-right {
+        font-size: 40px;
+        color: black;
+    }
+
+    .image-number {
+        display: none;
+    }
+
+
+}

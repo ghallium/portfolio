@@ -72,6 +72,10 @@ export default function Projet() {
               </a>
             ) : null}
           </div>
+          <div className="backtoprojects">
+              <i class="fa-solid fa-circle-arrow-left"></i>  
+              <a href="/projects">Revenir aux projets</a>
+          </div>
         </div>
       </div>
     );
