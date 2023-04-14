@@ -17,22 +17,28 @@
 }
 
 .vectorPrev {
-    width: 50px;
+    width: 70px;
+    background: #707070;
+    opacity: 0.8;
     position: absolute;
     top: 40%;
     left: 2%;
+    cursor: pointer;
 }
 
 .vectorNext {
-    width: 50px;
+    width: 70px;
+    background: #707070;
+    opacity: 0.8;
     position: absolute;
     top: 40%;
     left: 90%;
+    cursor: pointer;
 }
 
 .fa-arrow-left, .fa-arrow-right {
-    font-size: 80px;
-    color: #707070;
+    font-size: 75px;
+    color: white;
     
 }
 
@@ -66,9 +72,13 @@
         height: 400px;
     }
 
+    .vectorPrev, .vectorNext {
+        width: 55px;
+    }
+
     .fa-arrow-left, .fa-arrow-right {
         font-size: 60px;
-        color: black;
+        
     }
 
     
@@ -87,9 +97,13 @@
         height: 250px;
     }
 
+    .vectorPrev, .vectorNext {
+        width: 40px;
+    }
+
     .fa-arrow-left, .fa-arrow-right {
         font-size: 40px;
-        color: black;
+        
     }
 
     .image-number {

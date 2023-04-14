@@ -1,5 +1,24 @@
 [
     {
+        "id": "pro0001",
+        "github_link": "https://github.com/ghallium/cmleon-maintenance-page",
+        "project_url": "https://ghallium.github.io/cmleon-maintenance-page/",
+        "title": "Page de maintenance",
+        "description": "Une simple page de maintenance responsive développée rapidement pour l'agence CMLeon comprenant une animation CSS.",
+        "type_projet": "Projet réel",
+        "cover": "http://guillaume-robert-devweb.fr/src/assets/images/covers/cmleon-pro01-min.jpg",
+        "images" : [
+            "http://guillaume-robert-devweb.fr/src/assets/images/pro01.webp",
+            "http://guillaume-robert-devweb.fr/src/assets/images/pro01-02.webp"
+        ],
+        "tags" : [
+            "HTML",
+            "CSS"
+        ]
+
+
+    },
+    {
         "id": "formOC007",
         "github_link": "https://github.com/ghallium/P7",
         "project_url": null,
@@ -28,7 +47,7 @@
         "id": "formOC006",
         "github_link": "https://github.com/ghallium/P6",
         "project_url": null,
-        "title" : "API avis gastronomiques",
+        "title" : "API application avis gastronomiques",
         "description" : "Sixième projet du parcours Développeur web OpenClassrooms. Dans le but de se faire connaître avant de lancer sa boutique en ligne, l'entreprise de sauces épicées Piquante souhaite développer une application appelée Hot Takes où les utilisateurs peuvent ajouter les sauces qu'ils apprécient et liker/disliker celles que d'autres partagent. L'objectif était de développer une API sécurisée permettant toutes les opérations CRUD. L'API utilise Node.js et Express pour la partie serveur ainsi qu'une base de données NoSQL MongoDB pour stocker les sauces, utilisateurs et avis.",
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/hottakes_p6_min.png",
@@ -53,7 +72,7 @@
         "title" : "Site e-commerce javascript",
         "github_link": "https://github.com/ghallium/P5",
         "project_url": null,
-        "description" : "Développer un site e-commerce pour la marque de canapés Kanap",
+        "description" : "Cinquième projet du parcours Développeur web OpenClassrooms. Le client est Kanap, une marque de canapés qui souhaite avoir une plate-forme e-commerce en plus de sa boutique physique. L'objectif était de créer un site e-commerce en Javascript avec des données transmises depuis une API pour alimenter la page d'accueil et les pages produits, avec la possibilité d'ajouter des produits au panier et renvoyer les données via un formulaire. ",
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/kanap_p5_min.png",
         "images" : [
@@ -73,7 +92,7 @@
         "title" : "Site animations CSS avancées",
         "github_link": "https://github.com/ghallium/P3ohmyfood",
         "project_url": "https://ghallium.github.io/P3_Ohmyfood/",
-        "description" : "Intégrer la maquette du site Ohmyfood et animations CSS avancées",
+        "description" : "Troisième projet du parcours Développeur web OpenClassrooms. Pour le client Ohmyfood, l'objectif était d'intégrer des maquettes pour développer un site mobile-first répértoriant des menus de restaurants gastronomiques permettant à l'utilisateur de composer son menu. Le site devait proposer des animations CSS comme une checkbox animée, une simulation de temps de chargement et un effet de like avec un coeur qui se remplit.",
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/ohmyfood_p3_min.png",
         "images" : [
@@ -96,7 +115,7 @@
         "title" : "Intégration HTML CSS",
         "github_link": "https://github.com/ghallium/P2",
         "project_url": "https://ghallium.github.io/P2/",
-        "description" : "Intégrer une maquette en site HTML - CSS pour l'entreprise Booki",
+        "description" : "Deuxième projet du parcours Développeur web OpenClassrooms. Pour le compte de la start-up Booki, qui souhaite avoir un site permettant à ses utilisateurs de trouver des hébergements et activités dans la ville de leur choix, l'objectif était d'intégrer des maquettes desktop, tablettes et mobiles en site responsive en HTML et CSS.",
         "type_projet" : "Projet de formation",
         "cover" : "http://guillaume-robert-devweb.fr/src/assets/images/covers/booki_p2_min.png",
         "images" : [

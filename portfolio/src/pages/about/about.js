@@ -68,7 +68,7 @@ const [input, setInput] = useState("");
             Hey bonjour ! Moi c'est Guillaume Robert et je suis développeur web junior en reconversion professionnelle après avoir auparavant travaillé dans des domaines comme le graphisme ou la rédaction web. Après 7 mois de formation à distance chez OpenClassrooms, j'ai acquis un certain nombre de compétences comme apprendre à intégrer une maquette et la transformer en site fonctionnel, concevoir un site e-commerce en Javascript, découvrir le fonctionnement des API REST et de node.js ou encore pratiquer le framework React. 
             </p>
             <p>
-            Lorsque je ne suis pas devant Visual Studio Code, je m'intéresse à tout ce qui touche de près ou de loin à la culture populaire : cinéma, bande-dessinée, manga et séries télévisées. Je suis également un passionné de jeux vidéo depuis mon plus jeune âge et pratique le streaming à mes heures perdues. Aussi, j'aime bien les chiens (et aussi les chats), la culture hip-hop et manger des pizzas.   
+            Lorsque je ne suis pas devant Visual Studio Code, je m'intéresse à tout ce qui touche de près ou de loin à la culture populaire : cinéma, bande-dessinée, manga et séries télévisées. Je suis également un passionné de jeux vidéo depuis mon plus jeune âge et pratique le streaming à mes heures perdues. Aussi, j'aime bien les chiens (et les chats), la culture hip-hop et manger des pizzas.   
             </p>
             
           </div>

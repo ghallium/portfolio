@@ -74,7 +74,6 @@
 
 .project_links {
     display: flex;
-    justify-content: center;
     width: 40%;
     animation: poplinks 0.2s ease-out forwards;
     animation-delay: 1.3s;
@@ -272,6 +271,7 @@
     .tags_types {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .project_type {
@@ -281,6 +281,10 @@
     .projet_description {
         width: 70%;
         text-align: center;
+    }
+
+    .project_links {
+        justify-content: center;
     }
 
     .backtoprojects {
@@ -319,6 +323,7 @@
     .tags_types {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
 
     .project_type {
@@ -328,6 +333,15 @@
     .projet_description {
         width: 80%;
         text-align: center;
+    }
+
+    .project_links {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .goGithub {
+        margin-bottom: 20px;
     }
 
     .backtoprojects {
