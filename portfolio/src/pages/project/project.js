@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from 'react-router-dom';
+import { Link } from "react-router-dom";
 import Error from "../error/error";
 import data from "../../data/projets.json";
 import Carousel from "../../components/carousel/carousel";
@@ -55,9 +56,11 @@ export default function Projet() {
               ))}
             </ul>
             <span className="project_type">{foundProject.type_projet}</span>
+            <span className="project_status">{foundProject.status}</span>
           </div>
           <p className="projet_description">{foundProject.description}</p>
           <div className="project_links">
+            
             <a href={foundProject.github_link} target="_blank" rel="noreferrer">
               <div className="goGithub">
                 <i class="fa-brands fa-github"></i>
@@ -74,7 +77,7 @@ export default function Projet() {
           </div>
           <div className="backtoprojects">
               <i class="fa-solid fa-circle-arrow-left"></i>  
-              <a href="/projects">Revenir aux projets</a>
+              <Link to="/projects">Revenir aux projets</Link>
           </div>
         </div>
       </div>

@@ -1,4 +1,5 @@
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 import Blank from "../layouts/blank";
 import Default from "../layouts/default";
 import Error from "../pages/error/error";

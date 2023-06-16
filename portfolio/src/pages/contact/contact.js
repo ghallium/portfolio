@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import zeldaSound from "../../assets/zelda-secret-sound.mp3";
 import codecCover from "../../assets/codec-cover.png"
 import emailjs from "emailjs-com";
+import ReCAPTCHA from "react-google-recaptcha";
 import "./contact.css";
 import { useForm } from 'react-hook-form';
 
@@ -76,10 +77,18 @@ function Contact() {
                         {errors.email && <p className="error-message">Veuillez entrer votre adresse e-mail.</p>}
                     </div>
                     <div className="message-submit">
-                        <input type="text" autoComplete="none" name="message" placeholder="Votre message" {...register("message", { required: true })} />
-                        {errors.message && <p className="error-message">N'oubliez pas de laisser votre message !</p>}
-                        <button disabled={isSubmitting}>Envoyer</button>
+                      <input
+                        type="text"
+                        autoComplete="none"
+                        name="message"
+                        placeholder="Votre message"
+                        {...register("message", { required: true })}
+                      />
+                      {errors.message && <p className="error-message">N'oubliez pas de laisser votre message !</p>}
+                      <ReCAPTCHA sitekey="6Ld6qqMmAAAAAKr_sSTNWYcJoc-bMVpnw1WYONBD" /> {/* Clé ReCAPTCHA */}
+                      <button disabled={isSubmitting}>Envoyer</button>
                     </div>
+
                 </form>
             </div>
         </div>
